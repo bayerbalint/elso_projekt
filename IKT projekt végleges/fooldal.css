@@ -1,0 +1,110 @@
+header {
+    background-color: black;
+    padding: 10.5px;
+    font-size: 10.5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    background-image: url('./fooldal_kepek/háttér.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+li {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.b {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.feher {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;  
+}
+
+.kozep {
+    text-align: justify;
+    margin: 20px;
+}
+
+.tarolo {
+    display: grid;
+    grid-template-columns: auto;  
+}
+
+.asd {
+    display: grid;
+    grid-template-rows: 80px 90px 92px;
+    float: left;
+    color: white;
+    font-size: 60px;
+    margin-left: -1000px;
+    margin-top: 20px;
+}
+
+#asd2 {
+    font-size: 50px;
+}
+
+.asd3 {
+    margin-left:30px;
+    text-align: left;
+    margin-top: 60px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: -80px;
+    text-decoration: underline;
+}
+
+.asd4 {
+    margin-left: 6px;
+}
+
+.nev {
+    margin-left:45px;
+    text-align: left;
+    margin-top: 110px;
+    color: white;
+    
+}
+
+.kepek {
+    height: 80%;
+    width: 80%;
+}

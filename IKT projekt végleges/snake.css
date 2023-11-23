@@ -1,0 +1,120 @@
+header {
+    background-color: black;
+    padding: 10.5px;
+    font-size: 10.5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    background-image: url('./fooldal_kepek/háttér.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+li {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 990px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.feher {
+    color: white;
+    font-size: 35px;
+}
+
+.jatekszabalyok {
+    text-align: left;
+    font-size:28px;
+    text-decoration: underline;
+    color: white;
+    margin-left: 30px;
+}
+
+.szoveg {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.bal {
+    float: left;
+    margin-left: 215px;
+}
+
+#anyadat {
+    position: relative;
+    display: grid;
+    color: white;
+}
+
+#jatekmezo {
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    background-color: #a0c432;
+}
+
+#tarolo {
+    margin: auto;
+    text-align: center;
+}
+
+#ujra, #start {
+    background-color: white(96, 96, 96);
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+}
+
+
+#pont_grid {
+    justify-content: center;
+    margin-left: -450px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 50px 10px;
+    color: white;
+}
+
+#kep {
+    width: 50px;
+    height: 50px;
+    background-image: url('./kigyo_grafika/cherry.png');
+    margin-left: 215px;
+}
+
+#score {
+    margin-left: 215px;
+}

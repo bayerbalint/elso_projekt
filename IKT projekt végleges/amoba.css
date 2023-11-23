@@ -1,0 +1,109 @@
+header {
+    background-color: black;
+    padding: 10.5px;
+    font-size: 10.5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    background-image: url('./fooldal_kepek/háttér.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+li {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 970px;
+}
+
+.feher {
+    color: white;
+    font-size: 35px;
+}
+
+.jatekszabalyok {
+    text-align: left;
+    font-size:28px;
+    text-decoration: underline;
+    color: white;
+    margin-left: 30px;
+}
+
+.szoveg {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+#btn1, #btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9{
+    box-sizing: border-box;
+    width: 145px;
+    height: 145px;
+    
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+#ujra {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+
+#nyertes {
+    font-size: 25px;
+    height: 25px;
+    color: white;
+}
+
+button {
+    font-size: 30px;
+    padding: 20px 20px;
+    float: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+ 
+.bal {
+    float: left;
+    margin-left: 230px;
+}
+
+#kor {
+    color: white;
+    font-size: 18px;
+}

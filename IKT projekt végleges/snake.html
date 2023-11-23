@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+
+<header>
+    <nav>
+        <div class="container">
+            <div>
+                <ul>
+                    <li>
+                        <a href="index.html">Főoldal</a>
+                    </li>
+                    <li>
+                        <a href="amoba.html">Amőba</a>
+                    </li>
+                    <li>
+                        <a href="memoria.html">Memória</a>
+                    </li>
+                    <li>
+                        <a href="snake.html">Snake</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <h3 style="color: white;">Snake</h3>
+    <p class="jatekszabalyok">Játékszabályok:</p>
+    <ul>
+        <li style="text-align: left;" class="szoveg">A snake játék során egy falánk kígyóval játszunk, aki minden megjelenő finomságot igyekszik minél hamarabb a bendőjébe zárni.</li>
+        <li style="text-align: left;" class="szoveg">A képernyőn felvillanó dolgok elfogyasztása azonban következményekkel jár: kigyónk egyre hosszabbá válik.</li>
+        <li style="text-align: left;" class="szoveg">Az általunk irányított kígyó ugyanis nem mehet bele a játékmező szélébe vagy saját magába, ellenkező esetben sajnos vesztettünk.</li>
+        <li style="text-align: left;" class="szoveg">A kígyóval négy irányba mozoghatunk: fel, le, balra és jobbra.</li>
+    </ul>
+    <div class="bal">
+        <div id="anyadat">
+        <div id="tarolo">
+        <div id="pont_grid">
+            <div id="kep"></div>
+            <h2 id="score">0</h2>
+        </div>
+        <div id="jatekmezo"></div><br>
+        <button id="start">Start</button>
+        <button id="ujra">Újra</button>
+    </div>
+    </div>
+</body>
+<script type="module" src="snake.js"></script>
+</html>

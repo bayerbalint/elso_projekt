@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amőba</title>
+    <link rel="stylesheet" href="amoba.css">
+</head>
+
+<header>
+    <nav>
+        <div class="container">
+            <div>
+                <ul>
+                    <li>
+                        <a href="index.html">Főoldal</a>
+                    </li>
+                    <li>
+                        <a href="amoba.html">Amőba</a>
+                    </li>
+                    <li>
+                        <a href="memoria.html">Memória</a>
+                    </li>
+                    <li>
+                        <a href="snake.html">Snake</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <h3 style="color: white;">Amőba</h3>
+    <p class="jatekszabalyok">Játékszabályok:</p>
+    <ul>
+        <li style="text-align: left;" class="szoveg">Az amőbát két játékos játssza egy négyzethálós játéktéren.</li>
+        <li style="text-align: left;" class="szoveg">A játékosok felváltva helyezik el ikonjaikiat, a még üres négyzetek valamelyikébe.</li>
+        <li style="text-align: left;" class="szoveg">Az nyer, aki előbb el tud helyezni egymás mellett 3 ikont vízszintesen vagy függőlegesen vagy átlósan.</li>
+        <li style="text-align: left;" class="szoveg">Döntetlen is előfordulhat, ha a pálya betelik és egyik játékos sem alakított ki 3 egymás melletti ikont.</li>
+    </ul>
+    <div class="bal">
+        <div id="kor"></div>
+        <div id="grid"></div><br>
+        <div id="nyertes"></div><br>
+        <button id="ujra">Újra</button>
+    </div>
+</body>
+<script src="amoba.js"></script>
+</html>
